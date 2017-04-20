@@ -1,0 +1,21 @@
+/*
+ Theme Name:   Napoli Jambon
+ Description:  Thème enfant de Napoli pour l'exemple
+ Author:       Djyp
+ Template:     napoli
+ Version:      0.0.2
+ Text Domain:  napoli-jambon
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Griffy');
+
+body {
+    font-family: 'Griffy';
+}
+
+.entry-title a:link, .entry-title a:visited {
+    color: blue;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
